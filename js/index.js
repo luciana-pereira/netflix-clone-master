@@ -9,9 +9,11 @@ const home = () => {
             <h1>Filmes, séries e muito mais. Sem limites.</h1>
             <h3>Assista onde quiser. Cancele quando quiser.</h3>
             <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-            <input type="email" name="email" id="mail" placeholder="Email">
-            <a href="#" class="btn btn-lg">Vamos lá ></a>
-        </div>
+            </div>
+            <div class="input">
+                <input type="email" name="email" placeholder="Email"/>
+                <a href="#" class="btn-rounded"><button class="btdd">Vamos lá ></button></a>
+            </div>
     </header>
 
     <section class="style-cards">
