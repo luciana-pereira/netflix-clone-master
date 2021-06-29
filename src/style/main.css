@@ -41,7 +41,7 @@ a {
     width: 100%;
     height: 100vh;
     position: relative;
-    background: url("https://github.com/techiecoder2079/Netflix-Clone/blob/main/1.jpg?raw=true") no-repeat center center/cover;
+    background: url("../assets/background-home.jpg") no-repeat center center/cover;
 }
 
 .showcase::after{
@@ -110,13 +110,19 @@ a {
 }
 
 .showcase-content input{
-    position: absolute;
-    left: 0;
-    bottom: -8vh;
-    width: 454px;
-    height: 3rem;
-    font-size: 1rem;
-    padding-left: 0.5rem;
+    min-width: 450px;
+    height: 60px!important;
+    border-bottom-right-radius: 0;
+    padding: 10px 10px 0;
+    width: 100%;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: solid 1px #8c8c8c;
+    border-radius: 2px;
+    display: block;
+    cursor: text;
+    color: #000;
 }
 
 .btn-home {
@@ -145,14 +151,27 @@ a {
 }
 
 .showcase-content .btn-lg{
-    position: absolute;
-    right: 0;
-    bottom: -8vh;
-    padding: 0.5rem 1.2rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    height: 36px;
-    width: 14rem;
+        position: relative;
+        min-width: 74px;
+        color: #fff;
+        /* background-color: #e50914; */
+        background-image: linear-gradient(to bottom,#e50914,#db0510);
+        /* right: 0; */
+        vertical-align: middle;
+        cursor: pointer;
+        /* font-weight: bold; */
+        /* letter-spacing: .1px; */
+        /* border-radius: 2px; */
+        user-select: none;
+        text-align: center;
+        /* bottom: -8vh; */
+        padding: 0px 26px;
+        font-size: 3rem;
+        min-height: 60px;
+        /* font-size: 1.5rem; */
+        /* text-transform: uppercase; */
+        /* height: 36px; */
+        /* width: 14rem; */
 }
 
 .card-0 , 
@@ -193,6 +212,7 @@ a {
     font-size: 3rem;
     padding: 1rem;
     padding-left: 0;
+    margin-bottom: 50px;
 }
 
 .style-cards h3{
@@ -282,6 +302,7 @@ a {
     color: white;
     text-align: left;
     width: 50%;
+    list-style-type: none;
 }
 
 .faq p{
@@ -291,23 +312,31 @@ a {
 }
 
 .input{
-    display: inline-grid;
+    display: block;
+    margin: 0 90px 90px 90px;
     align-items: center;
     grid-template-columns: 50% 40%;
+    box-shadow: none;
 }
 
 .input input{
-    width: 600px;
-    height: 3rem;
+    min-width: 450px;
+    height: 60px!important;
+    border-bottom-right-radius: 0;
+    padding: 10px 10px 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: solid 1px #8c8c8c;
+    border-radius: 2px;
+    cursor: text;
+    color: #000;
 }
 
 .input button{
-    height: 3.25rem;
-    width: 320px;
-    left: 20px;
     text-align: center;
     background-color: var(--vermelho);
-    font-size: 1.5rem;
+    font-size: 25px;
     padding: 15px 32px;
     border: none;
     border-radius: 2px;
@@ -363,8 +392,6 @@ a:active,a:hover {
     color: #fff;
 }
 
-
-
 .netflix-sans-font-loaded {
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 }
@@ -376,10 +403,6 @@ a:active,a:hover {
 .netflix-sans-font-loaded.graphik-font-loaded {
     font-family: GraphikTH,'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 }
-
-
-
-
 
 footer,header,main,menu,nav,section {
     display: block
@@ -449,58 +472,6 @@ img {
     top: 50%;
     left: 50%;
     z-index: 1
-}
-
-@-webkit-keyframes full-rotation {
-    from {
-        -webkit-transform: translate(-50%,-50%) rotate(0);
-        transform: translate(-50%,-50%) rotate(0)
-    }
-
-    to {
-        -webkit-transform: translate(-50%,-50%) rotate(360deg);
-        transform: translate(-50%,-50%) rotate(360deg)
-    }
-}
-
-@-moz-keyframes full-rotation {
-    from {
-        -moz-transform: translate(-50%,-50%) rotate(0);
-        transform: translate(-50%,-50%) rotate(0)
-    }
-
-    to {
-        -moz-transform: translate(-50%,-50%) rotate(360deg);
-        transform: translate(-50%,-50%) rotate(360deg)
-    }
-}
-
-@-o-keyframes full-rotation {
-    from {
-        -o-transform: translate(-50%,-50%) rotate(0);
-        transform: translate(-50%,-50%) rotate(0)
-    }
-
-    to {
-        -o-transform: translate(-50%,-50%) rotate(360deg);
-        transform: translate(-50%,-50%) rotate(360deg)
-    }
-}
-
-@keyframes full-rotation {
-    from {
-        -webkit-transform: translate(-50%,-50%) rotate(0);
-        -moz-transform: translate(-50%,-50%) rotate(0);
-        -o-transform: translate(-50%,-50%) rotate(0);
-        transform: translate(-50%,-50%) rotate(0)
-    }
-
-    to {
-        -webkit-transform: translate(-50%,-50%) rotate(360deg);
-        -moz-transform: translate(-50%,-50%) rotate(360deg);
-        -o-transform: translate(-50%,-50%) rotate(360deg);
-        transform: translate(-50%,-50%) rotate(360deg)
-    }
 }
 
 .btn {
@@ -670,48 +641,6 @@ img {
     letter-spacing: .15vw
 }
 
-@-webkit-keyframes billboardOpacityFadeOut {
-    from {
-        opacity: 1
-    }
-
-    to {
-        opacity: 0
-    }
-}
-
-@-moz-keyframes billboardOpacityFadeOut {
-    from {
-        opacity: 1
-    }
-
-    to {
-        opacity: 0
-    }
-}
-
-@-o-keyframes billboardOpacityFadeOut {
-    from {
-        opacity: 1
-    }
-
-    to {
-        opacity: 0
-    }
-}
-
-@keyframes billboardOpacityFadeOut {
-    from {
-        opacity: 1
-    }
-
-    to {
-        opacity: 0
-    }
-}
-
-
-
 @-webkit-keyframes shakeit {
     0% {
         -webkit-transform: translateX(-4em);
@@ -804,8 +733,8 @@ img {
 }
 
 .profiles-gate-container .centered-div {
-    /* z-index: 100;
-    position: absolute; */
+    z-index: 100;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
