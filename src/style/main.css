@@ -37,6 +37,13 @@ a {
     background-color: transparent
 }
 
+.alert {
+    background-color: #bb0a12;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
 .showcase {
     width: 100%;
     height: 100vh;

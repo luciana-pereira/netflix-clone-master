@@ -3,6 +3,7 @@ const home = () => {
     <header class="showcase">
         <div class="showcase-top">
             <img src="./assets/logo-netflix.png" alt="Netflix Logo">
+            <h2 class="alert">Atenção! Esta não é uma página oficial da Netflix.</h2>
             <a href="#" class="btn-home btn-rounded btdd">Entrar</a>
         </div>
         <div class="showcase-content">
