@@ -3,71 +3,112 @@ const home = () => {
     <header class="showcase">
         <div class="showcase-top">
             <img src="./assets/logo-netflix.png" alt="Netflix Logo">
-            <a href="#" class="btn-home btn-rounded btdd">Entrar</a>
+            <a href="#" class="btn-action btn-home btn-rounded">Entrar</a>
         </div>
         <div class="showcase-content">
             <h1>Filmes, séries e muito mais. Sem limites.</h1>
-            <h3>Assista onde quiser. Cancele quando quiser.</h3>
+            <h2>Assista onde quiser. Cancele quando quiser.</h2>
             <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-            </div>
             <div class="input">
                 <input type="email" name="email" placeholder="Email"/>
-                <a href="#" class="btn-rounded"><button class="btdd">Vamos lá ></button></a>
+                <a href="#" class="btn-rounded"><button class="btn  btn-red btn-home">Vamos lá ></button></a>
             </div>
+        </div>
     </header>
 
     <section class="style-cards">
-        <div class="card-0">
-            <img src="./assets/2.jpg" alt="Netflix Mobile">
-            <div class="desc-0">
-                <h1>Crie perfis para crianças.</h1>
-                <h3>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h3>
+        <div class="story-card-animation">
+            <div class="animation-card-container">
+                <div class="card-text">
+                    <h1 class="card-title">Aproveite na TV.</h1>
+                    <h2 class="card-sub-title">Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
+                </div>
+                <div class="card-img-container">
+                    <div class="card-animation-container">
+                        <img class="card-img"src="./assets/tv.png" alt="Netflix TV"/>
+                        <div class="card-animation">
+                            <video class="video-1" autoplay="" playsinline="" muted="" loop="">
+                                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v">
+                            </video>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card-1">
-            <div class="desc-1">
-                <h1>Aproveite na TV.</h1>
-                <h3>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h3>
+
+        <div class="story-card-animation">
+            <div class="animation-card-container">
+                <div class="card-img-container">
+                    <div class="card-animation-container">
+                        <img class="card-img"src="./assets/3.jpg" alt="Netflix TV"/>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h1 class="card-title">Baixe séries para assistir offline.</h1>
+                    <h2 class="card-sub-title">Salve seus títulos e sempre tenha algo para assistir.</h2>
+                </div>
             </div>
-            <img src="./assets/tv.png" alt="Netflix TV"/>
-            <video class="video-1" autoplay="" playsinline="" muted="" loop=""><source src="./assets/1.m4v" type="video/mp4"></video>
         </div>
-        <div class="card-2">
-            <img src="./assets/3.jpg" alt="Netflix Mobile">
-            <div class="desc-2">
-                <h1>Baixe séries para assistir offline.</h1>
-                <h3>Salve seus títulos favoritos e sempre tenha algo para assistir.</h3>
+
+        <div class="story-card-animation">
+            <div class="animation-card-container">
+                <div class="card-text">
+                    <h1 class="card-title">Assista quando quiser.</h1>
+                    <h2 class="card-sub-title">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h2>
+                </div>
+                <div class="card-img-container">
+                    <div class="card-animation-container">
+                        <img class="card-img-device"src="./assets/device-pile.png" alt="Netflix TV"/>
+                        <div class="card-animation">
+                            <video class="video-2" autoplay="" playsinline="" muted="" loop="">
+                                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v">
+                            </video>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card-3">
-            <div class="desc-3">
-                <h1>Assista quando quiser.</h1>
-                <h3>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h3>
+
+        <div class="story-card-animation">
+            <div class="animation-card-container">
+                <div class="card-img-container">
+                    <div class="card-animation-container">
+                        <img class="card-img"src="./assets/home-infantil.png" alt="Netflix TV"/>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h1 class="card-title">Crie perfis para crianças.</h1>
+                    <h2 class="card-sub-title">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h2>
+                </div>
             </div>
-            <img src="./assets/4.png" alt="Device-Pile-In"/>
-            <video class="video-2" autoplay="" playsinline="" muted="" loop=""><source src="./assets/2.m4v" type="video/mp4"></video>
         </div>
     </section>
 
-    <section class="lastsec">
-        <div class="faq">
-            <h1>Perguntas frequentes</h1>
-            <ul class="questions">
-                <li>O que é Netflix?</li>
-                <li>Quanto custa a Netflix?</li>
-                <li>Onde posso assistir?</li>
-                <li>Como faço para cancelar?</li>
-                <li>O que eu posso assistir na Netflix?</li>
-                <li>A Netflix é adequada para crianças?</li>
+    <section class="story-card faq-card">
+        <div class="story-card-text">
+            <h1 class="story-card-title">Perguntas frequentes</h1>
+            <ul class="faq-list">
+                <li class="faq-list-item">
+                    <button class="faq-question">
+                        O que é Netflix?
+                    </button>
+                    <svg class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+                        <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                    </svg>
+                </li>
+                <li class="faq-list-item">Quanto custa a Netflix?</li>
+                <li class="faq-list-item">Onde posso assistir?</li>
+                <li class="faq-list-item">Como faço para cancelar?</li>
+                <li class="faq-list-item">O que eu posso assistir na Netflix?</li>
+                <li class="faq-list-item">A Netflix é adequada para crianças?</li>
             </ul>
             <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
             <div class="input">
                 <input type="email" name="email" placeholder="Email"/>
-                <a href="#" class="btn-rounded"><button class="btdd">Vamos lá ></button></a>
+                <a href="#" class="btn-rounded"><button class="btn btn-red btn-lg btn-home">Vamos lá ></button></a>
             </div>
         </div>
     </section>
-
 
     <footer class="footer">
         <p class="title-footer">Dúvidas? Ligue 0800-761-4631</p>
@@ -101,7 +142,7 @@ const home = () => {
     </footer>
     `;
 
-    const btnUser = document.querySelector('.btdd');
+    const btnUser = document.querySelector('.btn-action');
     btnUser.addEventListener('click', () => {
     document.getElementById('root').innerHTML = `
     <div id="appMountPoint">

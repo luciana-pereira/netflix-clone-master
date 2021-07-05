@@ -1,3 +1,13 @@
+@media only screen and (min-width: 550px) and (max-width: 949px),
+ only screen and (min-width: 950px) and (max-width: 1449px), 
+ only screen and (min-width: 1450px) {
+    .story-card-animation {
+        padding: 70px 45px;
+    }
+}
+
+
+
 @media screen and (max-width:700px){
     header .container{
     display: flex;
