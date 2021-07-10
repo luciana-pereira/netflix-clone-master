@@ -2,7 +2,7 @@
 # Netflix-Clone 
 [Acesse aqui a aplicação](https://luciana-pereira.github.io/netflix-clone-master/index.html)
 
-## Status: [Em construção]
+## Status: [✅ Concluída] - Com perspectiva futuras para novas implementações.
 
 ## Índice
 
@@ -19,7 +19,7 @@ Este projeto consiste em um clone da pagina da [Netflix](https://www.netflix.com
 
 ## 2. Objetivos do projeto
 
-O objetivo do projeto, consiste não somente na reprodução da pagina, como na sua construção sem a utilização de bibliotecas externas.
+O objetivo do projeto, consiste não somente na reprodução da página, como na sua construção sem a utilização de bibliotecas externas.
   
 ## 3. Tecnologias utilizadas
 
