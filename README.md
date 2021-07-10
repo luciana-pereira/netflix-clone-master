@@ -1,5 +1,5 @@
 
-# Netflix-Clone 
+# Netflix-Clone 🎬🎥📺
 [Acesse aqui a aplicação](https://luciana-pereira.github.io/netflix-clone-master/index.html)
 
 ## Status: [✅ Concluída] - Com perspectiva futuras para novas implementações.
@@ -27,5 +27,5 @@ HTML / CSS / JavaScript
 
 ## 4. Desenvolvedora
 
-O **_Netflix-Clone_** foi desenvolvido por [Luciana Pereira](https://github.com/luciana-pereira/), para o desafio da Digital Innovation One e a Avanade💛**.
+O **_Netflix-Clone_** foi desenvolvido por [Luciana Pereira](https://github.com/luciana-pereira/), para o desafio da Digital Innovation One e a Avanade🧡**.
 
