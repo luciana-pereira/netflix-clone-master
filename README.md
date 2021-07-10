@@ -1,6 +1,6 @@
 
 # Netflix-Clone 
-[Acesse aqui a aplicação](https://luciana-pereira.github.io/netflix-clone-master/)
+[Acesse aqui a aplicação](https://luciana-pereira.github.io/netflix-clone-master/index.html)
 
 ## Status: [Em construção]
 
